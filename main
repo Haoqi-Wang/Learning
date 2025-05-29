@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>我的学习日记</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+  <header class="bg-white shadow p-6">
+    <div class="container mx-auto flex items-center justify-between">
+      <h1 class="text-3xl font-bold">📘 我的学习日记</h1>
+      <p class="text-sm text-gray-500">记录成长的每一步</p>
+    </div>
+  </header>
+
+  <nav class="bg-blue-100 p-4">
+    <div class="container mx-auto flex space-x-4 text-sm font-medium">
+      <a href="#math" class="hover:underline">数学</a>
+      <a href="#code" class="hover:underline">编程</a>
+      <a href="#dsp" class="hover:underline">信号处理</a>
+      <a href="#ai" class="hover:underline">人工智能</a>
+    </div>
+  </nav>
+
+  <main class="container mx-auto mt-6 space-y-6">
+    <!-- 示例日志 -->
+    <section class="bg-white p-6 rounded-xl shadow">
+      <h2 class="text-xl font-semibold mb-1">📅 2025-05-28：支持向量机调参笔记</h2>
+      <p class="text-gray-600 text-sm mb-2">分类效果受 C 值影响明显，Gamma 越大越容易 overfit。</p>
+      <a href="#" class="text-blue-500 text-sm hover:underline">阅读全文 →</a>
+    </section>
+
+    <section class="bg-white p-6 rounded-xl shadow">
+      <h2 class="text-xl font-semibold mb-1">📅 2025-05-27：Z 变换收敛域分析</h2>
+      <p class="text-gray-600 text-sm mb-2">ROC 包含单位圆表示系统稳定，极点位置决定系统性质。</p>
+      <a href="#" class="text-blue-500 text-sm hover:underline">阅读全文 →</a>
+    </section>
+  </main>
+
+  <footer class="text-center text-sm text-gray-400 mt-10 p-4">
+    © 2025 我的学习日记 | Powered by HTML + Tailwind CSS
+  </footer>
+</body>
+</html>
